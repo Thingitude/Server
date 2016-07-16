@@ -1,0 +1,115 @@
+/*!
+ * TTN Workshop, GROW@GreenPark
+ * (c) Mark Stanley, January 2016 
+ */
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+body {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding-top: 1%;
+  font-family: inherit;
+  font-weight: bold;
+  line-height: 0.8em;
+  color: inherit;
+  text-rendering: optimizelegibility;
+}
+
+h1 {
+  font-size: 270%;
+  -webkit-text-size-adjust: 270%;
+  -ms-text-size-adjust: 270%;
+
+}
+
+h2 {
+  font-size: 228%;
+  -webkit-text-size-adjust: 228%;
+  -ms-text-size-adjust: 228%;
+
+}
+
+.banner, .c-container {
+  text-align: center;
+}
+
+.c-container {
+  margin-top: 2%;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.infobox {
+  margin-top: 22%;
+  margin-left: 15%;
+  margin-right: 15%;
+  text-align: center;
+}
+
+.banner h1 {
+  padding-bottom: 2%;
+}
+
+.row-fluid {
+  padding-bottom: 2%;
+}
+
+@media screen and (max-width: 1100px) {
+  h1 {
+    font-size: 200%;
+    -webkit-text-size-adjust: 200%;
+    -ms-text-size-adjust: 200%;
+    line-height: 1.2em;
+  }
+
+  h2 {
+    font-size: 150%;
+    -webkit-text-size-adjust: 150%;
+    -ms-text-size-adjust: 150%;
+  }
+
+  .row-fluid {
+    margin-left: 0;
+    margin-right: 0;
+    padding-bottom: 2%;
+  }
+
+}
+@media screen and (max-width: 800px) {
+  h1 {
+    font-size: 150%;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    line-height: 1.2em;
+
+  }
+
+  h2 {
+    font-size: 120%;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+   }
+
+   .c-container, .infobox {
+    margin-left: 0;
+    margin-right: 0;
+   }
+
+  .row-fluid .span4 {
+    min-width: 100%;
+    padding-bottom: 5%;
+  }
+}
